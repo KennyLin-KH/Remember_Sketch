@@ -8,6 +8,7 @@ async function setup() {
 
 function draw() {
   background(220);
+  circle (points.points[0].x,points.points[0].y,points.points[0].d);
   points.points.push({x:mouseX,y:mouseY});
 }
 function keyPressed() {
